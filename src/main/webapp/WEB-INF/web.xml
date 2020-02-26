@@ -1,0 +1,239 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app version="3.1" xmlns="http://xmlns.jcp.org/xml/ns/javaee" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd">
+    <servlet>
+        <servlet-name>matter</servlet-name>
+        <servlet-class>com.mycompany.mp2.matter</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>homeController</servlet-name>
+        <servlet-class>com.mycompany.mp2.homeController</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>adminhome</servlet-name>
+        <servlet-class>com.mycompany.mp2.adminhome</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>shop</servlet-name>
+        <servlet-class>com.mycompany.mp2.shop</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>singin</servlet-name>
+        <servlet-class>com.mycompany.mp2.singin</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>BuyNow</servlet-name>
+        <servlet-class>com.mycompany.mp2.BuyNow</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>BookProduct</servlet-name>
+        <servlet-class>com.mycompany.mp2.BookProduct</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>AdminOrder</servlet-name>
+        <servlet-class>com.mycompany.mp2.AdminOrder</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>myOrders</servlet-name>
+        <servlet-class>com.mycompany.mp2.myOrders</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>Userinputfordelivery</servlet-name>
+        <servlet-class>com.mycompany.mp2.Userinputfordelivery</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>PaymentRequestSend</servlet-name>
+        <servlet-class>com.mycompany.mp2.PaymentRequestSend</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>PackageDisplay</servlet-name>
+        <servlet-class>com.mycompany.mp2.PackageDisplay</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>UpdateandDelete</servlet-name>
+        <servlet-class>com.mycompany.mp2.UpdateandDelete</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>UpdateImageWithAjax</servlet-name>
+        <servlet-class>com.mycompany.mp2.UpdateImageWithAjax</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>generateDiscount</servlet-name>
+        <servlet-class>com.mycompany.mp2.generateDiscount</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>getorders</servlet-name>
+        <servlet-class>com.mycompany.mp2.getorders</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>getDataForAdmin</servlet-name>
+        <servlet-class>com.mycompany.mp2.getDataForAdmin</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>product</servlet-name>
+        <servlet-class>com.mycompany.mp2.product</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>getSingleProduct</servlet-name>
+        <servlet-class>com.mycompany.mp2.getSingleProduct</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>bookproduct2</servlet-name>
+        <servlet-class>com.mycompany.mp2.bookproduct2</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>cartServlet</servlet-name>
+        <servlet-class>com.mycompany.mp2.cartServlet</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>CartShow</servlet-name>
+        <servlet-class>com.mycompany.mp2.CartShow</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>deleteCart</servlet-name>
+        <servlet-class>com.mycompany.mp2.deleteCart</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>addToCartFromSearch</servlet-name>
+        <servlet-class>com.mycompany.mp2.addToCartFromSearch</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>Contact</servlet-name>
+        <servlet-class>com.mycompany.mp2.Contact</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>getMessage</servlet-name>
+        <servlet-class>com.mycompany.mp2.getMessage</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>AddSetting</servlet-name>
+        <servlet-class>com.mycompany.mp2.AddSetting</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>singin</servlet-name>
+        <servlet-class>com.mycompany.mp2.singin</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>product</servlet-name>
+        <url-pattern>/product</url-pattern>
+    </servlet-mapping>
+    
+    <servlet-mapping>
+        <servlet-name>homeController</servlet-name>
+        <url-pattern>/homeController</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>matter</servlet-name>
+        <url-pattern>/matter</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>cartServlet</servlet-name>
+        <url-pattern>/cartServlet</url-pattern>
+    </servlet-mapping>
+    
+    <servlet-mapping>
+        <servlet-name>CartShow</servlet-name>
+        <url-pattern>/CartShow</url-pattern>
+    </servlet-mapping>
+    
+    
+    <servlet-mapping>
+        <servlet-name>singin</servlet-name>
+        <url-pattern>/singin</url-pattern>
+    </servlet-mapping>
+    
+    <servlet-mapping>
+        <servlet-name>BuyNow</servlet-name>
+        <url-pattern>/BuyNow</url-pattern>
+    </servlet-mapping>
+    
+    <servlet-mapping>
+        <servlet-name>UpdateandDelete</servlet-name>
+        <url-pattern>/UpdateandDelete</url-pattern>
+    </servlet-mapping>
+    
+    <servlet-mapping>
+        <servlet-name>shop</servlet-name>
+        <url-pattern>/shop</url-pattern>
+    </servlet-mapping>
+    
+    <servlet-mapping>
+        <servlet-name>BookProduct</servlet-name>
+        <url-pattern>/BookProduct</url-pattern>
+    </servlet-mapping>
+    
+    <servlet-mapping>
+        <servlet-name>Userinputfordelivery</servlet-name>
+        <url-pattern>/Userinputfordelivery</url-pattern>
+    </servlet-mapping>
+    
+    <servlet-mapping>
+        <servlet-name>AdminOrder</servlet-name>
+        <url-pattern>/AdminOrder</url-pattern>
+    </servlet-mapping>
+    
+    <servlet-mapping>
+        <servlet-name>PaymentRequestSend</servlet-name>
+        <url-pattern>/PaymentRequestSend</url-pattern>
+    </servlet-mapping>
+    
+    <servlet-mapping>
+        <servlet-name>getorders</servlet-name>
+        <url-pattern>/getorders</url-pattern>
+    </servlet-mapping>
+    
+    <servlet-mapping>
+        <servlet-name>PackageDisplay</servlet-name>
+        <url-pattern>/PackageDisplay</url-pattern>
+    </servlet-mapping>
+    
+    <servlet-mapping>
+        <servlet-name>AddSetting</servlet-name>
+        <url-pattern>/AddSetting</url-pattern>
+    </servlet-mapping>
+    
+    <servlet-mapping>
+        <servlet-name>getMessage</servlet-name>
+        <url-pattern>/getMessage</url-pattern>
+    </servlet-mapping>
+
+    <servlet-mapping>
+        <servlet-name>myOrders</servlet-name>
+        <url-pattern>/myOrders</url-pattern>
+    </servlet-mapping>
+    
+    <servlet-mapping>
+        <servlet-name>generateDiscount</servlet-name>
+        <url-pattern>/generateDiscount</url-pattern>
+    </servlet-mapping>
+    
+    <servlet-mapping>
+        <servlet-name>getSingleProduct</servlet-name>
+        <url-pattern>/getSingleProduct</url-pattern>
+    </servlet-mapping>
+    
+    <servlet-mapping>
+        <servlet-name>bookproduct2</servlet-name>
+        <url-pattern>/bookproduct2</url-pattern>
+    </servlet-mapping>
+    
+    <servlet-mapping>
+        <servlet-name>addToCartFromSearch</servlet-name>
+        <url-pattern>/addToCartFromSearch</url-pattern>
+    </servlet-mapping>
+    
+    <servlet-mapping>
+        <servlet-name>deleteCart</servlet-name>
+        <url-pattern>/deleteCart</url-pattern>
+    </servlet-mapping>
+    
+    <servlet-mapping>
+        <servlet-name>Contact</servlet-name>
+        <url-pattern>/Contact</url-pattern>
+    </servlet-mapping>
+    <session-config>
+        <session-timeout>
+            30
+        </session-timeout>
+    </session-config>
+    
+</web-app>
